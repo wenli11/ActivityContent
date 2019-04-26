@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="DialogTheme" parent="Theme.AppCompat.Dialog">
+    <!--<style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog">-->
+    <!--<style name="DialogTheme" parent="Theme.AppCompat.DayNight.Dialog">-->
+        <!--背景色,此处的背景色请一定要设置为透明度背景色-->
+        <!--<item name="android:windowBackground">@color/transparent</item>-->
+        <!--<item name="android:windowBackground">@color/orage</item>-->
+        <!--&lt;!&ndash;window Is Translucent 窗口是半透明的&ndash;&gt;-->
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+        <!--&lt;!&ndash;window No Title窗口无标题&ndash;&gt;-->
+        <!--<item name="android:windowNoTitle">true</item>-->
+        <!--&lt;!&ndash;弹出动画&ndash;&gt;-->
+        <!--<item name="android:windowAnimationStyle">@null</item>-->
+    </style>
+
+</resources>

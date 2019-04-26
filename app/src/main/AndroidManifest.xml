@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pers.dg.activitycontent">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activityflags.excludefromrecents.FlagExcludeFromRecentsActivity"
+            android:excludeFromRecents="true"></activity>
+        <activity android:name=".activityflags.singletop.FlagSingleTopTransferActivity" />
+        <activity android:name=".activityflags.cleartop.FlagClearTopActivity" />
+        <activity android:name=".activityflags.singletop.FlagSingleTopActivity" />
+        <activity android:name=".activityflags.newtask.FlagNewTaskActivity" />
+        <activity
+            android:name=".launchmode.singleinstance.SingleInstanceTransferActivity"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".launchmode.singleinstance.SingleInstanceLaunchModeActivity"
+            android:launchMode="singleInstance" />
+        <activity android:name=".launchmode.singleTask.SingleTaskTransferActivity" />
+        <activity
+            android:name=".launchmode.singleTask.SingleTaskLaunchModeActivity"
+            android:launchMode="singleTask" />
+        <activity android:name=".launchmode.singletop.SingleTopTransferActivity" />
+        <activity
+            android:name=".launchmode.singletop.SingleTopLaunchModeActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".launchmode.standard.StandardLaunchModeActivity"
+            android:launchMode="standard" />
+        <activity
+            android:name=".lifecycle.dialogactivityjump.DialogTargetActivity"
+            android:theme="@style/DialogTheme" />
+        <activity android:name=".lifecycle.dialogactivityjump.DialogActivityJumpActivity" />
+        <activity android:name=".lifecycle.jumptwoactivities.TargetActivity" />
+        <activity android:name=".lifecycle.jumptwoactivities.JumpTwoActivitiesActivity" />
+        <activity
+            android:name=".lifecycle.horizontalandverticalscreenswitching.NoRestartActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:name=".lifecycle.horizontalandverticalscreenswitching.OrdinaryActivity" />
+        <activity android:name=".lifecycle.completelifecycle.CompleteLifeCycleActivity" />
+        <activity android:name=".MainActivity"
+            >
+            <!--android:excludeFromRecents="true"-->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
